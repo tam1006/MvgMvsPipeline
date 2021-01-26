@@ -4,4 +4,62 @@
 <title>SequentialReconstructionEngine SFM report.</title>
 </head>
 <h1>SequentialSfMReconstructionEngine</h1>
-<hr>Dataset info:Views count: 11<br></html>
+<hr>Dataset info:Views count: 11<br><h1>Essential Matrix.</h1>
+
+-------------------------------<br>-- Robust Essential matrix: <0,1> images: kermit000.jpg,kermit001.jpg<br>-- Threshold: 1.06317<br>-- Resection status: OK<br>-- Nb points used for robust Essential matrix estimation: 121<br>-- Nb points validated by robust estimation: 119<br>-- % points validated: 0.983471<br>-------------------------------<br><h2>Residual of the robust estimation (Initial triangulation). Thresholded at: 1.06317</h2>
+<h2>Histogram of residuals</h2>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00040,0.09814,0.19588,0.29362,0.39135,0.48909,0.58683,0.68456,0.78230,0.88004,];
+var data1= [297.00000,93.00000,35.00000,28.00000,1.00000,11.00000,6.00000,1.00000,2.00000,1.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[1.06317,0.00000], {fixed:true});
+var p3 = board.create('point',[1.06317,297.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.17552,356.20000,1.05597,-58.20000]);
+</script>
+<hr><h1>Resection of Image index: <7> image: kermit007.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <7> image: kermit007.jpg<br>-- Threshold: 2.01225<br>-- Resection status: OK<br>-- Nb points used for Resection: 62<br>-- Nb points validated by robust estimation: 54<br>-- % points validated: 0.870968<br>-------------------------------<br><h1>Resection of Image index: <2> image: kermit002.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <2> image: kermit002.jpg<br>-- Threshold: 3.48356<br>-- Resection status: OK<br>-- Nb points used for Resection: 72<br>-- Nb points validated by robust estimation: 70<br>-- % points validated: 0.972222<br>-------------------------------<br><h1>Resection of Image index: <5> image: kermit005.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <5> image: kermit005.jpg<br>-- Threshold: 4.77177<br>-- Resection status: OK<br>-- Nb points used for Resection: 52<br>-- Nb points validated by robust estimation: 49<br>-- % points validated: 0.942308<br>-------------------------------<br><h1>Resection of Image index: <9> image: kermit009.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <9> image: kermit009.jpg<br>-- Threshold: 2.5366<br>-- Resection status: OK<br>-- Nb points used for Resection: 54<br>-- Nb points validated by robust estimation: 47<br>-- % points validated: 0.87037<br>-------------------------------<br><h1>Resection of Image index: <8> image: kermit008.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <8> image: kermit008.jpg<br>-- Threshold: 6.39392<br>-- Resection status: OK<br>-- Nb points used for Resection: 52<br>-- Nb points validated by robust estimation: 51<br>-- % points validated: 0.980769<br>-------------------------------<br><h1>Resection of Image index: <10> image: kermit010.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <10> image: kermit010.jpg<br>-- Threshold: 1.87256<br>-- Resection status: OK<br>-- Nb points used for Resection: 49<br>-- Nb points validated by robust estimation: 45<br>-- % points validated: 0.918367<br>-------------------------------<br><h1>Resection of Image index: <3> image: kermit003.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <3> image: kermit003.jpg<br>-- Threshold: 3.49838<br>-- Resection status: OK<br>-- Nb points used for Resection: 31<br>-- Nb points validated by robust estimation: 29<br>-- % points validated: 0.935484<br>-------------------------------<br><h1>Resection of Image index: <6> image: kermit006.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <6> image: kermit006.jpg<br>-- Threshold: 3.83607<br>-- Resection status: OK<br>-- Nb points used for Resection: 11<br>-- Nb points validated by robust estimation: 10<br>-- % points validated: 0.909091<br>-------------------------------<br><h1>Resection of Image index: <4> image: kermit004.jpg<br> 
+</h1>
+
+-------------------------------<br>-- Robust Resection of camera index: <4> image: kermit004.jpg<br>-- Threshold: 2.61848<br>-- Resection status: OK<br>-- Nb points used for Resection: 10<br>-- Nb points validated by robust estimation: 10<br>-- % points validated: 1<br>-------------------------------<br><hr><h1>Structure from Motion process finished.</h1>
+-------------------------------<br>-- Structure from Motion (statistics):<br>-- #Camera calibrated: 11 from 11 input images.<br>-- #Tracks, #3D points: 451<br>-------------------------------<br><h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00010,0.37958,0.75906,1.13854,1.51802,1.89750,2.27698,2.65646,3.03595,3.41543,];
+var data1= [1821.00000,411.00000,159.00000,70.00000,37.00000,18.00000,9.00000,5.00000,3.00000,0.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.68297,2185.20000,4.09849,-364.20000]);
+</script>
+</html>

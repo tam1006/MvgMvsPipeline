@@ -1,0 +1,27 @@
+15:34:52 [App     ] Build date: Jan  5 2020, 15:49:26
+15:34:52 [App     ] CPU: AMD Ryzen 9 5950X 16-Core Processor             (32 cores)
+15:34:52 [App     ] RAM: 31.93GB Physical Memory 128.00TB Virtual Memory
+15:34:52 [App     ] OS: Windows 8 x64
+15:34:52 [App     ] SSE & AVX compatible CPU & OS detected
+15:34:52 [App     ] Command line: scene_dense_mesh_refine.mvs -w C:\Users\owner\Desktop\MvgMvsPipeline\result_castle\mvs
+15:34:52 [App     ] Scene loaded (106ms):
+	11 images (11 calibrated) with a total of 63.22 MPixels (5.75 MPixels/image)
+	0 points, 114015 vertices, 227131 faces
+15:34:59 [App     ] Assigning the best view to each face completed: 227131 faces (6s828ms)
+15:35:02 [App     ] Generating texture atlas and image completed: 1033 patches, 4096 image size (3s350ms)
+15:35:02 [App     ] Mesh texturing completed: 114015 vertices, 227131 faces (10s196ms)
+15:35:06 [App     ] Scene saved (3s902ms):
+	11 images (11 calibrated)
+	0 points, 114015 vertices, 227131 faces
+15:35:11 [App     ] Mesh saved: 114015 vertices, 227131 faces (4s362ms)
+15:35:11 [App     ] MEMORYINFO: {
+15:35:11 [App     ] 	PageFaultCount 1474396
+15:35:11 [App     ] 	PeakWorkingSetSize 1.61GB
+15:35:11 [App     ] 	WorkingSetSize 265.49MB
+15:35:11 [App     ] 	QuotaPeakPagedPoolUsage 124.67KB
+15:35:11 [App     ] 	QuotaPagedPoolUsage 124.50KB
+15:35:11 [App     ] 	QuotaPeakNonPagedPoolUsage 54.05KB
+15:35:11 [App     ] 	QuotaNonPagedPoolUsage 19.78KB
+15:35:11 [App     ] 	PagefileUsage 260.45MB
+15:35:11 [App     ] 	PeakPagefileUsage 2.70GB
+15:35:11 [App     ] } ENDINFO
